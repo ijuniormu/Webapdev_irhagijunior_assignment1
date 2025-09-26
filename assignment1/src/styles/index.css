@@ -1,0 +1,15 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Section: Base Typography */
+html, body {
+  font-family: theme('fontFamily.body');
+}
+
+/* Section: Reusable utility classes */
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
